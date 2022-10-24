@@ -1,3 +1,6 @@
+from re import S
+
+
 def main():
     """
     Return an empty list to the result.
@@ -6,4 +9,8 @@ def main():
     Returns:
         list: return answer
     """
-    return
+    s = []
+
+    return s
+
+print(main())    
